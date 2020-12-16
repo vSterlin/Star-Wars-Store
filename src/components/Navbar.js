@@ -25,6 +25,7 @@ const StyledNavbar = styled.nav`
   position: fixed;
   ${({ scrollLocation }) =>
     scrollLocation >= 5 ? "box-shadow: 0 1px 10px #000;" : ""}
+    z-index: 100;
 `;
 
 const StyledMenuIcon = styled(Menu)`
