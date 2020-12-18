@@ -3,15 +3,13 @@ import styled from "styled-components";
 import { ReactComponent as Credit } from "../assets/credit.svg";
 import { colors } from "../utils/colors";
 
-const margin = 20;
+
 
 const StyledCard = styled.div`
   display: flex;
   height: 80%;
-  /* width: 100%; */
   border-radius: 10px;
   overflow: hidden;
-  margin: 0 ${margin}px;
 
 `;
 
